@@ -20,4 +20,10 @@ public class PosMachineTest {
 
         assertEquals(expected, posMachine.printReceipt(ItemDataLoader.loadBarcodes()));
     }
+    
+    
+    public static void main(String[] args) {
+    	PosMachineTest test = new PosMachineTest();
+    	test.should_return_receipt();
+    }
 }
